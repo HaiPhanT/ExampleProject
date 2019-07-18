@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_feed"
+            android:title="@string/menu_feed"
+            android:icon="@drawable/img_composite_path_2"/>
+
+        <item
+            android:id="@+id/menu_event"
+            android:title="@string/menu_event"
+            android:icon="@drawable/img_event"/>
+
+        <item
+            android:id="@+id/menu_post"
+            android:title="@string/menu_post"
+            android:icon="@drawable/img_post"/>
+
+        <item
+            android:id="@+id/menu_notification"
+            android:title="@string/menu_notification"
+            android:icon="@drawable/img_notification"/>
+
+        <item
+            android:id="@+id/menu_account"
+            android:title="@string/menu_account"
+            android:icon="@drawable/img_account"/>
+
+        <item
+            android:id="@+id/menu_logout"
+            android:title="@string/menu_logout"
+            android:icon="@drawable/img_logout"/>
+    </group>
+
+</menu>

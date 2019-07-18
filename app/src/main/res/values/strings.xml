@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Example_1</string>
+    <string name="feed">Feed</string>
+    <string name="menu_feed">Feed</string>
+    <string name="menu_event">Event</string>
+    <string name="menu_post">Post</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_logout">Logout</string>
+    <string name="filter_select_all">Select All</string>
+    <string name="filter_clear_all">Clear All</string>
+</resources>

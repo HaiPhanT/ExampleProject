@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/mediumPadding">
+
+            <ImageView
+                android:id="@+id/ivClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_cross"
+                android:padding="@dimen/smallPadding" />
+
+            <TextView
+                android:id="@+id/tvFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/titleSize"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/ivDone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_done"
+                android:padding="@dimen/smallPadding"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvProductFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutHeader"
+        android:text="Products for"
+        android:textSize="@dimen/mediumtextSize"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:padding="@dimen/smallPadding"/>
+
+    <TextView
+        android:id="@+id/tvGenderMen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvProductFor"
+        android:text="Men"
+        android:textSize="@dimen/mediumtextSize"
+        android:textColor="#7E7D7D"
+        android:drawableLeft="@drawable/icon_men"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvGenderWomen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tvProductFor"
+        android:text="Women"
+        android:textSize="@dimen/mediumtextSize"
+        android:textColor="#7E7D7D"
+        android:drawableLeft="@drawable/icon_women"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvGenderBoth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvProductFor"
+        android:layout_alignParentRight="true"
+        android:text="Both"
+        android:textSize="@dimen/mediumtextSize"
+        android:textColor="#7E7D7D"
+        android:drawableLeft="@drawable/icon_both_gender"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/smallPadding"/>
+
+</RelativeLayout>

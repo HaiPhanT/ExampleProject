@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#ff6c70</color>
+    <color name="menuItemChecked">#ED1515</color>
+    <color name="menuItemUnchecked">#B3B0B0</color>
+</resources>
